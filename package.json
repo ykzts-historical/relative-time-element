@@ -1,0 +1,36 @@
+{
+  "author": "Yamagishi Kazutoshi <ykzts@desire.sh>",
+  "bugs": {
+    "url": "https://github.com/ykzts/relative-time-element/issues"
+  },
+  "dependencies": {
+    "document-register-element": "^0.5.0",
+    "moment": "^2.10.6"
+  },
+  "description": "Extend the time element so as to display relative time.",
+  "devDependencies": {
+    "babel-cli": "^6.1.4",
+    "babel-core": "^6.1.4",
+    "babel-preset-es2015": "^6.1.4",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ykzts/relative-time-element.git"
+  },
+  "scripts": {
+    "build": "gulp build"
+  },
+  "main": "./lib/relative-time-element",
+  "name": "relative-time-element",
+  "version": "1.0.0"
+}
